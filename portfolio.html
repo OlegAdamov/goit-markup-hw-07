@@ -15,7 +15,7 @@
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.0.0/modern-normalize.min.css"
     />
-    <link rel="stylesheet" href="./css/styles.css" />
+    <link rel="stylesheet" href="./css/main.css" />
     <title>WebStudio</title>
   </head>
   <body>
@@ -28,17 +28,10 @@
           <div class="header-nav">
             <ul class="header-list list">
               <li class="header-list-a">
-                <a href="./index.html" lang="ru" class="header-link link"
-                  >Студия</a
-                >
+                <a href="./index.html" lang="ru" class="header-link link">Студия</a>
               </li>
               <li class="header-list-a">
-                <a
-                  href="./portfolio.html"
-                  lang="ru"
-                  class="header-link current link"
-                  >Портфолио</a
-                >
+                <a href="./portfolio.html" lang="ru" class="header-link current link">Портфолио</a>
               </li>
               <li class="header-list-a">
                 <a href="" lang="ru" class="header-link link">Контакты</a>
@@ -49,243 +42,226 @@
 
         <ul class="list header-cnt">
           <li class="header-cnt-1">
-            <a href="mailto:info@devstudio.com" class="header-connect link"
-              ><svg class="header-connect-mail" width="16" height="12">
-                <use href="./images/icons.svg#icon-mail"></use></svg>info@devstudio.com</a>
+            <a href="mailto:info@devstudio.com" class="header-connect link">
+              <svg class="header-connect-mail" width="16" height="12">
+                <use href="./images/icons.svg#icon-mail"></use>
+              </svg>
+              info@devstudio.com
+            </a>
           </li>
           <li class="header-cnt-1">
-            <a href="tel:+380961111111" class="header-connect link"
-              ><svg class="header-connect-smartphone" width="10" height="16">
-                <use href="./images/icons.svg#icon-smartphone"></use></svg>38 096 111 11 11</a>
+            <a href="tel:+380961111111" class="header-connect link">
+              <svg class="header-connect-smartphone" width="10" height="16">
+                <use href="./images/icons.svg#icon-smartphone"></use>
+              </svg>
+              38 096 111 11 11
+            </a>
           </li>
         </ul>
       </div>
     </header>
-    <main>
+    <hero>
       <section class="section">
         <div class="container">
           <h2 hidden>filters</h2>
           <ul class="filters list">
-            <li class="main-filter">
-              <button type="button" class="main-button current">Все</button>
+            <li class="filters__item">
+              <button type="button" class="filters__button current">Все</button>
             </li>
-            <li class="main-filter">
-              <button type="button" class="main-button">Веб-сайты</button>
+            <li class="filters__item">
+              <button type="button" class="filters__button">Веб-сайты</button>
             </li>
-            <li class="main-filter">
-              <button type="button" class="main-button">Приложения</button>
+            <li class="filters__item">
+              <button type="button" class="filters__button">Приложения</button>
             </li>
-            <li class="main-filter">
-              <button type="button" class="main-button">Дизайн</button>
+            <li class="filters__item">
+              <button type="button" class="filters__button">Дизайн</button>
             </li>
-            <li class="main-filter">
-              <button type="button" class="main-button">Маркетинг</button>
+            <li class="filters__item">
+              <button type="button" class="filters__button">Маркетинг</button>
             </li>
           </ul>
-          <h2 class="main-ptf" hidden>portfolio</h2>
-          <ul class="portfolio-list list">
+          <h2 class="hero-ptf" hidden>portfolio</h2>
+          <ul class="hero-ptf__list list">
             <li>
               <a href="" class="link">
-                <div class="main-ptf-overlay">
-                  <img
-                    src="images/portfolio/tehnokryak.jpg"
-                    alt="Tehnokryak"
-                    width="370"
-                  />
-                  <div class="main-ptf-overlay-wind">
+                <div class="hero-ptf__overlay">
+                  <img src="images/portfolio/tehnokryak.jpg" alt="Tehnokryak" width="370" />
+                  <div class="hero-ptf__overlay-wind">
                     <p>
-                      Ресурс предлагает комплексные предложения с разным уровнем
-                      функционала и сервисов. Все это позволит посетителю
-                      получить исчерпывающие сведения о компании или частном
-                      лице.
+                      Ресурс предлагает комплексные предложения с разным уровнем функционала и
+                      сервисов. Все это позволит посетителю получить исчерпывающие сведения о
+                      компании или частном лице.
                     </p>
                   </div>
                 </div>
-                <div class="main-ptf-subtitle">
-                  <h3 class="main-ptf-name">Технокряк</h3>
-                  <p class="main-ptf-site">Веб-сайт</p>
+                <div class="hero-ptf__subtitle">
+                  <h3 class="hero-ptf__name">Технокряк</h3>
+                  <p class="hero-ptf__site">Веб-сайт</p>
                 </div>
               </a>
             </li>
             <li>
               <a href="" class="link">
-                <div class="main-ptf-overlay">
+                <div class="hero-ptf__overlay">
                   <img
                     src="images/portfolio/new_orlean_vs_golden_star.jpg"
                     alt="new_orlean_vs_golden_star"
                     width="370"
                   />
-                  <div class="main-ptf-overlay-wind">
+                  <div class="hero-ptf__overlay-wind">
                     <p>
-                      Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                      Excepturi maxime reiciendis accusantium sint harum quod
-                      provident tempora officiis! Ipsam, fugit vero!
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi maxime
+                      reiciendis accusantium sint harum quod provident tempora officiis! Ipsam,
+                      fugit vero!
                     </p>
                   </div>
                 </div>
-                <div class="main-ptf-subtitle">
-                  <h3 class="main-ptf-name">
-                    Постер New Orlean vs Golden Star
-                  </h3>
-                  <p class="main-ptf-site">Дизайн</p>
+                <div class="hero-ptf__subtitle">
+                  <h3 class="hero-ptf__name">Постер New Orlean vs Golden Star</h3>
+                  <p class="hero-ptf__site">Дизайн</p>
                 </div>
               </a>
             </li>
             <li>
               <a href="" class="link">
-                <div class="main-ptf-overlay">
-                  <img
-                    src="images/portfolio/seafood.jpg"
-                    alt="Seafood"
-                    width="370"
-                  />
-                  <div class="main-ptf-overlay-wind">
+                <div class="hero-ptf__overlay">
+                  <img src="images/portfolio/seafood.jpg" alt="Seafood" width="370" />
+                  <div class="hero-ptf__overlay-wind">
                     <p>
-                      Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                      Quod nisi, sequi sed necessitatibus tempore facilis
-                      maxime, cupiditate molestias provident vel corporis.
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod nisi, sequi sed
+                      necessitatibus tempore facilis maxime, cupiditate molestias provident vel
+                      corporis.
                     </p>
                   </div>
                 </div>
-                <div class="main-ptf-subtitle">
-                  <h3 class="main-ptf-name">Ресторан Seafood</h3>
-                  <p class="main-ptf-site">Приложение</p>
+                <div class="hero-ptf__subtitle">
+                  <h3 class="hero-ptf__name">Ресторан Seafood</h3>
+                  <p class="hero-ptf__site">Приложение</p>
                 </div>
               </a>
             </li>
             <li>
               <a href="" class="link">
-                <div class="main-ptf-overlay">
-                  <img
-                    src="images/portfolio/prime.jpg"
-                    alt="Prime"
-                    width="370"
-                  />
-                  <div class="main-ptf-overlay-wind">
+                <div class="hero-ptf__overlay">
+                  <img src="images/portfolio/prime.jpg" alt="Prime" width="370" />
+                  <div class="hero-ptf__overlay-wind">
                     <p>
-                      Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                      Fugiat laudantium ipsum rerum molestias velit odit odio
-                      itaque non, iusto nisi ex!
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat laudantium
+                      ipsum rerum molestias velit odit odio itaque non, iusto nisi ex!
                     </p>
                   </div>
                 </div>
-                <div class="main-ptf-subtitle">
-                  <h3 class="main-ptf-name">Проект Prime</h3>
-                  <p class="main-ptf-site">Маркетинг</p>
+                <div class="hero-ptf__subtitle">
+                  <h3 class="hero-ptf__name">Проект Prime</h3>
+                  <p class="hero-ptf__site">Маркетинг</p>
                 </div>
               </a>
             </li>
             <li>
               <a href="" class="link">
-                <div class="main-ptf-overlay">
-                  <img
-                    src="images/portfolio/boxes.jpg"
-                    alt="Boxes"
-                    width="370"
-                  />
-                  <div class="main-ptf-overlay-wind">
+                <div class="hero-ptf__overlay">
+                  <img src="images/portfolio/boxes.jpg" alt="Boxes" width="370" />
+                  <div class="hero-ptf__overlay-wind">
                     <p>
-                      Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-                      Minima, magni. Sapiente tempora expedita incidunt eum.
-                      Ipsum voluptatibus beatae cum sint id.
+                      Lorem ipsum dolor sit, amet consectetur adipisicing elit. Minima, magni.
+                      Sapiente tempora expedita incidunt eum. Ipsum voluptatibus beatae cum sint id.
                     </p>
                   </div>
                 </div>
-                <div class="main-ptf-subtitle">
-                  <h3 class="main-ptf-name">Проект Boxes</h3>
-                  <p class="main-ptf-site">Приложение</p>
+                <div class="hero-ptf__subtitle">
+                  <h3 class="hero-ptf__name">Проект Boxes</h3>
+                  <p class="hero-ptf__site">Приложение</p>
                 </div>
               </a>
             </li>
             <li>
               <a href="" class="link">
-                <div class="main-ptf-overlay">
+                <div class="hero-ptf__overlay">
                   <img
                     src="images/portfolio/inspiration_has_no_borders.jpg"
                     alt="Inspiration has no Borders"
                     width="370"
                   />
-                  <div class="main-ptf-overlay-wind">
+                  <div class="hero-ptf__overlay-wind">
                     <p>
-                      Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                      Ea esse dicta voluptas eius dolor porro, distinctio
-                      mollitia harum cumque enim perspiciatis.
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea esse dicta
+                      voluptas eius dolor porro, distinctio mollitia harum cumque enim perspiciatis.
                     </p>
                   </div>
                 </div>
-                <div class="main-ptf-subtitle">
-                  <h3 class="main-ptf-name">Inspiration has no Borders</h3>
-                  <p class="main-ptf-site">Веб-сайт</p>
+                <div class="hero-ptf__subtitle">
+                  <h3 class="hero-ptf__name">Inspiration has no Borders</h3>
+                  <p class="hero-ptf__site">Веб-сайт</p>
                 </div>
               </a>
             </li>
             <li>
               <a href="" class="link">
-                <div class="main-ptf-overlay">
+                <div class="hero-ptf__overlay">
                   <img
                     src="images/portfolio/limited_edition.jpg"
                     alt="Limited Edition"
                     width="370"
                   />
-                  <div class="main-ptf-overlay-wind">
+                  <div class="hero-ptf__overlay-wind">
                     <p>
-                      Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-                      Maiores, nostrum nesciunt doloribus provident id sed
-                      temporibus, nemo tempore doloremque obcaecati eligendi!
+                      Lorem ipsum dolor sit amet consectetur, adipisicing elit. Maiores, nostrum
+                      nesciunt doloribus provident id sed temporibus, nemo tempore doloremque
+                      obcaecati eligendi!
                     </p>
                   </div>
                 </div>
-                <div class="main-ptf-subtitle">
-                  <h3 class="main-ptf-name">Издание Limited Edition</h3>
-                  <p class="main-ptf-site">Дизайн</p>
+                <div class="hero-ptf__subtitle">
+                  <h3 class="hero-ptf__name">Издание Limited Edition</h3>
+                  <p class="hero-ptf__site">Дизайн</p>
                 </div>
               </a>
             </li>
             <li>
               <a href="" class="link">
-                <div class="main-ptf-overlay">
+                <div class="hero-ptf__overlay">
                   <img src="images/portfolio/lab.jpg" alt="LAB" width="370" />
-                  <div class="main-ptf-overlay-wind">
+                  <div class="hero-ptf__overlay-wind">
                     <p>
-                      Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-                      Earum nostrum accusantium enim quibusdam blanditiis.
-                      Debitis ducimus quos aliquid. At, minus laborum!
+                      Lorem ipsum dolor sit, amet consectetur adipisicing elit. Earum nostrum
+                      accusantium enim quibusdam blanditiis. Debitis ducimus quos aliquid. At, minus
+                      laborum!
                     </p>
                   </div>
                 </div>
-                <div class="main-ptf-subtitle">
-                  <h3 class="main-ptf-name">Проект LAB</h3>
-                  <p class="main-ptf-site">Маркетинг</p>
+                <div class="hero-ptf__subtitle">
+                  <h3 class="hero-ptf__name">Проект LAB</h3>
+                  <p class="hero-ptf__site">Маркетинг</p>
                 </div>
               </a>
             </li>
             <li>
               <a href="" class="link">
-                <div class="main-ptf-overlay">
+                <div class="hero-ptf__overlay">
                   <img
                     src="images/portfolio/growing_business.jpg"
                     alt="Growing Business"
                     width="370"
                   />
-                  <div class="main-ptf-overlay-wind">
+                  <div class="hero-ptf__overlay-wind">
                     <p>
-                      Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                      Animi rerum eligendi, dignissimos maiores quisquam
-                      recusandae, perferendis accusamus distinctio, dolores
-                      ullam dolorem.
+                      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi rerum
+                      eligendi, dignissimos maiores quisquam recusandae, perferendis accusamus
+                      distinctio, dolores ullam dolorem.
                     </p>
                   </div>
                 </div>
-                <div class="main-ptf-subtitle">
-                  <h3 class="main-ptf-name">Growing Business</h3>
-                  <p class="main-ptf-site">Приложение</p>
+                <div class="hero-ptf__subtitle">
+                  <h3 class="hero-ptf__name">Growing Business</h3>
+                  <p class="hero-ptf__site">Приложение</p>
                 </div>
               </a>
             </li>
           </ul>
         </div>
       </section>
-    </main>
+    </hero>
 
     <footer class="footer">
       <div class="container">
@@ -297,9 +273,7 @@
             <p>г. Киев, пр-т Леси Украинки, 26</p>
             <ul class="footer-link list">
               <li>
-                <a href="mailto:info@devstudio.com" class="link"
-                  >info@devstudio.com</a
-                >
+                <a href="mailto:info@devstudio.com" class="link">info@devstudio.com</a>
               </li>
               <li>
                 <a href="tel:+380961111111" class="link">+38 096 111 11 11</a>
@@ -340,7 +314,7 @@
             </li>
           </ul>
         </div>
-         <div class="subscribe">
+        <div class="subscribe">
           <h2 class="footer-subscribe-h2">Подпишитесь на рассылку</h2>
 
           <form name="footer-subscribe" class="footer-subscribe">
